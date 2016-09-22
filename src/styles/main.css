@@ -82,10 +82,13 @@
   display: flex;
   font-size: 2em;
   text-decoration: none;
+<<<<<<< HEAD
   color: rgb(218, 223, 227);
 }
 .content-leftnav a:hover{
   background: rgba(43, 43, 45,0.3);
+=======
+>>>>>>> 4d7327b063aaee3d4c14453628e70a2423cf0f8f
 }
 
 .home-container{

@@ -1,4 +1,5 @@
 import injectTapEventPlugin from 'react-tap-event-plugin';
+<<<<<<< HEAD
 
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -17,3 +18,14 @@ injectTapEventPlugin();
 
 
 render(<Routes />,document.getElementById('app'));
+=======
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from "./App.js"
+injectTapEventPlugin();
+
+ReactDOM.render(
+  <App />,
+  document.getElementById('app')
+);
+>>>>>>> 4d7327b063aaee3d4c14453628e70a2423cf0f8f

@@ -43,6 +43,23 @@ class App extends React.Component {
         </content>
         {this.state.small ? <Footer /> : "" }
       </div>
+=======
+import React, { PropTypes } from 'react'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import MyAwesomeReactComponent from './MyAwesomeReactComponent';
+import AppBarExampleIcon from './AppBarExampleIcon.js';
+class App extends React.Component {
+  render () {
+    return(
+      <div>
+      <MuiThemeProvider>
+        <MyAwesomeReactComponent />
+      </MuiThemeProvider>
+      <MuiThemeProvider>
+        <AppBarExampleIcon />
+      </MuiThemeProvider>
+    </div>
+>>>>>>> 4d7327b063aaee3d4c14453628e70a2423cf0f8f
     )
   }
 }

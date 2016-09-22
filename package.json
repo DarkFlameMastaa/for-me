@@ -57,9 +57,12 @@
     "webpack-hot-middleware": "^2.6.0"
   },
   "dependencies": {
+<<<<<<< HEAD
     "axios": "^0.14.0",
     "highlight.js": "^9.7.0",
     "marked": "^0.3.6",
+=======
+>>>>>>> 4d7327b063aaee3d4c14453628e70a2423cf0f8f
     "material-ui": "^0.15.4",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
