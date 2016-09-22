@@ -5,12 +5,9 @@ import Home from './Home/Home.js'
 import About from './About/About.js'
 import Work from './Work/Work.js'
 import Blog from './Blog/Blog.js'
+import Item from './Item/Item.js'
 import React, { PropTypes } from 'react'
-// <Route path="/about" component={About}/>
-// <Route path="/users" component={Users}>
-//   <Route path="/user/:userId" component={User}/>
-// </Route>
-// <Route path="*" component={NoMatch}/>
+
 
 class Routes extends React.Component {
   render () {
@@ -21,6 +18,7 @@ class Routes extends React.Component {
           <Route path="/about" component={About}/>
           <Route path="/blog" component={Blog}/>
           <Route path="/work" component={Work}/>
+          <Route path="/view/:url" component={Item} />
         </Route>
       </Router>
     )
