@@ -3,10 +3,12 @@ import NavHeader from './Component/NavHeader.js';
 import Footer from './Component/Footer.js';
 import LeftNav from './LeftNav.js';
 
+import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import MyAwesomeReactComponent from './MyAwesomeReactComponent.js';
 import baseTheme from '../node_modules/material-ui/styles/baseThemes/lightBaseTheme.js';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
+injectTapEventPlugin();
+
 
 class App extends React.Component {
   getChildContext() {

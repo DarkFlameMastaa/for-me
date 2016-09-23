@@ -3,6 +3,11 @@
   display: flex;
   flex-direction:row;
 }
+@media(max-width:760px){
+  .content-wrap{
+    flex-direction:column;
+  }
+}
 .bkg{
   position: absolute;
   left: 0;
@@ -107,7 +112,6 @@
   justify-content: center;
   color:white;
 }
-
 @media(max-width:760px){
   .content-wrap{
     flex-direction:column;
