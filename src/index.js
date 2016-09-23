@@ -4,6 +4,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import MyAwesomeReactComponent from './MyAwesomeReactComponent.js';
+import baseTheme from '../node_modules/material-ui/styles/baseThemes/lightBaseTheme.js';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
 import {render} from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
